@@ -24,8 +24,8 @@ With this Jaeger server, we can then do some improvement in our project to allow
 
 ## Key Concepts
 
-> **Tracer** : A tracer is like a Jaeger client in the application side. By using this tracer, OPT can communicate with Jaeger to report tracing info.  
-> **Span** : A span is similar to a session. The start and the finish of a Span can be controlled manually or automatically. A span can be the child of another span, or follows an span.
+**Tracer** : A tracer is like a Jaeger client in the application side. By using this tracer, OPT can communicate with Jaeger to report tracing info.  
+**Span** : A span is similar to a session. The start and the finish of a Span can be controlled manually or automatically. A span can be the child of another span, or follows an span.
 
 Start a child span:
 
