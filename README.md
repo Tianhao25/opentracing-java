@@ -53,7 +53,7 @@ mockBillingServer.doSomething(span.context());
 
 start a follow-up span  
 ```java
-        Tracer.SpanBuilder followUp = tracer.
-                buildSpan("follow").addReference(References.FOLLOWS_FROM, parentContext);
-        Span fspan = followUp.startManual();
+    Tracer.SpanBuilder followUp = tracer.
+            buildSpan("follow").addReference(References.FOLLOWS_FROM, parentContext);
+    Span fspan = followUp.startManual();
 ```
